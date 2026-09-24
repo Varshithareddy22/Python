@@ -55,5 +55,45 @@ for i in range(0,101,+1):
         print("Buzz")   
     else:
         print("number") 
-'''
+
 #Find largest of 3 numbers
+x= 18
+y= 23
+z= 5
+if x>y and x>z:
+    print(x,"is largest among 3 numbers")
+elif y>x and y>z:
+    print(y,"is largest among 3 numbers")
+else:
+    print(z,"largest among 3 numbers") 
+
+#count digits in a number
+x= int(input("enter the number"))
+count=0
+while x!=0:
+    x=x//10
+    count+=1
+    print(count)
+
+#Reverse the number
+x=int(input("enter the number:"))
+reverse=0
+while x!=0:
+    a=x%10
+    reverse=reverse*10+a
+    x=x//10
+print(reverse)
+'''
+
+#fibonacci sequence for first N terms
+N=int(input("enter the number:"))
+a=0
+b=1
+while N!=0:
+    print(a)
+    c=a+b
+    a=b
+    b=c
+    N=N-1
+
+    
