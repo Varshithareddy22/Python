@@ -1,4 +1,4 @@
-'''
+
 #printing my name 10 times
 for i in range(10):
     print("Varshitha")
@@ -83,7 +83,6 @@ while x!=0:
     reverse=reverse*10+a
     x=x//10
 print(reverse)
-'''
 
 #fibonacci sequence for first N terms
 N=int(input("enter the number:"))
