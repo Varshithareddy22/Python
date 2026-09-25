@@ -16,7 +16,7 @@ x= int(input("Number="))
 if x%2==0:
     print( x ,"is a even number")
 else:
-     print( x ,"is a odd number")
+     print( x ,"is a odd number") 
 
 #printing multiplication table using for loop
 x=int(input("Number="))
