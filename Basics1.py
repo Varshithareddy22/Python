@@ -20,7 +20,7 @@ else:
 
 #printing multiplication table using for loop
 x=int(input("Number="))
-for i in range(1,11,+1): 
+for i in range(1,11,+1):  
     print(x,"*",i,"=",x*i)
     i=i+1
  
