@@ -1,4 +1,3 @@
-
 #printing my name 10 times
 for i in range(10):
     print("Varshitha")
@@ -94,5 +93,3 @@ while N!=0:
     a=b
     b=c
     N=N-1
-
-    
