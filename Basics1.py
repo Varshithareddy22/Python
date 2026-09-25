@@ -12,7 +12,7 @@ while i<=N:
 print(sum)
 
 #Check if a number is even or odd
-x= int(input("Number="))
+x= int(input("Number=")) 
 if x%2==0:
     print( x ,"is a even number")
 else:
