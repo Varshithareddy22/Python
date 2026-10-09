@@ -1,4 +1,3 @@
-'''
 class Student:
     def study(self, name, age):
         print(name ,"is the Student of age", age)
@@ -28,5 +27,4 @@ cal(18,5)
 def check(x):
     check=lambda x: "EVEN" if x%2==0 else "ODD"
     print(check(x))
-check(18) 
-'''   
+check(18)   
