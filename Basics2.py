@@ -23,4 +23,10 @@ def cal(a,b):
     print(add(a,b))
     print(mul(a,b))
 cal(18,5)
-'''
+
+#lambda function using if/else
+def check(x):
+    check=lambda x: "EVEN" if x%2==0 else "ODD"
+    print(check(x))
+check(18) 
+'''   
