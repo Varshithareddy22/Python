@@ -1,3 +1,4 @@
+#functions
 class Student:
     def study(self, name, age):
         print(name ,"is the Student of age", age)
