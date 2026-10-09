@@ -9,10 +9,18 @@ s1=Student()
 s1.study("varshitha", 18)
 print(s1.study)
 s1.write_exam("Varshitha")
-'''
 
-#lambda function
+#lambda function with 1 arugument
 def fun(x):
     fun=lambda x:x*x
     print(fun(x))
 fun(5)
+
+#lambda function with multiple variables
+def cal(a,b):
+    add=lambda a,b: a+b
+    mul=lambda a,b: a*b
+    print(add(a,b))
+    print(mul(a,b))
+cal(18,5)
+'''
