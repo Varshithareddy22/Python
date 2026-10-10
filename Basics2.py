@@ -48,7 +48,6 @@ Team = [
 ]
 x= sorted(Team,key=lambda team:team[0])
 print(x)
-'''
 
 #lambda with descending order sorted 
 Team = [
@@ -60,4 +59,9 @@ x= sorted(Team,key=lambda team:team[0],reverse=True)
 y= sorted(Team,key=lambda team:team[1],reverse=True)
 print(x)
 print(y)
- 
+
+#lambda sorting with expression 
+Numbers=(5,18,7,20,21)
+x= sorted(Numbers, key=lambda numbers:numbers*numbers)
+print(x)
+'''
