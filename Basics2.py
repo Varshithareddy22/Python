@@ -39,7 +39,6 @@ students = [
 ]
 x= sorted(students,key=lambda student:student[1])
 print(x)
-'''
 
 #lambda with sorted string
 Team = [
@@ -49,3 +48,4 @@ Team = [
 ]
 x= sorted(Team,key=lambda team:team[0])
 print(x)
+'''
