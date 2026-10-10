@@ -30,7 +30,6 @@ def check(x):
     check=lambda x: "EVEN" if x%2==0 else "ODD"
     print(check(x))
 check(18)
-'''
 
 #lambda with sorted
 students = [
@@ -39,4 +38,14 @@ students = [
     ("Jemi",5)
 ]
 x= sorted(students,key=lambda student:student[1])
+print(x)
+'''
+
+#lambda with sorted string
+Team = [
+    ("Smriti"),
+    ("Jemi"),
+    ("Harman")
+]
+x= sorted(Team,key=lambda team:team[0])
 print(x)
