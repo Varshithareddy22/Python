@@ -42,10 +42,22 @@ print(x)
 
 #lambda with sorted string
 Team = [
-    ("Smriti"),
-    ("Jemi"),
-    ("Harman")
+    ("Smriti",18),
+    ("Jemi",5),
+    ("Harman",7)
 ]
 x= sorted(Team,key=lambda team:team[0])
 print(x)
 '''
+
+#lambda with descending order sorted 
+Team = [
+    ("Smriti",18),
+    ("Jemi",5),
+    ("Harman",7)
+]
+x= sorted(Team,key=lambda team:team[0],reverse=True)
+y= sorted(Team,key=lambda team:team[1],reverse=True)
+print(x)
+print(y)
+ 
