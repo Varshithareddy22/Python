@@ -1,3 +1,4 @@
+'''
 #functions
 class Student:
     def study(self, name, age):
@@ -28,4 +29,14 @@ cal(18,5)
 def check(x):
     check=lambda x: "EVEN" if x%2==0 else "ODD"
     print(check(x))
-check(18)   
+check(18)
+'''
+
+#lambda with sorted
+students = [
+    ("Varshitha",22),
+    ("Smriti",18),
+    ("Jemi",5)
+]
+x= sorted(students,key=lambda student:student[1])
+print(x)
