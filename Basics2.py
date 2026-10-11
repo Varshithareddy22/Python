@@ -69,10 +69,15 @@ print(x)
 numbers=[5,18,20,21,23]
 x=map(lambda x:x*x, numbers)
 print(list(x))
-'''
 
 #lambda with filter
 num=[18,5,23,20,45]
 x= filter(lambda x:x%2==0,num)
 print(list(x))
+'''
+
+#lambda with strings 
+Team=['Smriti','Jemi','Harry']
+x= sorted(Team,key= lambda x:len(x))
+print(x)
 
