@@ -74,10 +74,12 @@ print(list(x))
 num=[18,5,23,20,45]
 x= filter(lambda x:x%2==0,num)
 print(list(x))
-'''
 
 #lambda with strings 
 Team=['Smriti','Jemi','Harry']
 x= sorted(Team,key= lambda x:len(x))
 print(x)
+'''
 
+x= lambda x:x*x
+print(x(5))
