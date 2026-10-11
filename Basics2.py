@@ -79,7 +79,15 @@ print(list(x))
 Team=['Smriti','Jemi','Harry']
 x= sorted(Team,key= lambda x:len(x))
 print(x)
-'''
 
+#lambda expression 
 x= lambda x:x*x
 print(x(5))
+'''
+
+#lambda function when logic is complicated 
+def calculate(x):
+    result = x*2
+    result = result+15
+    return result
+print(calculate(5))
