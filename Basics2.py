@@ -65,3 +65,8 @@ Numbers=(5,18,7,20,21)
 x= sorted(Numbers, key=lambda numbers:numbers*numbers)
 print(x)
 '''
+
+#lambda with map
+numbers=[5,18,20,21,23]
+x=map(lambda x:x*x, numbers)
+print(list(x))
