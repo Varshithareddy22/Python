@@ -4,8 +4,13 @@
 students = ["A", "S", "M"]
 print(students[0])
 print(students[1:3])
-'''
+
 #List with append 
 num = [18,5,23]
 num.append(17)
+print(num)
+'''
+#List with insert 
+num = [18,5,23]
+num.insert(1,17)
 print(num)
