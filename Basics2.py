@@ -1,4 +1,3 @@
-'''
 #functions
 class Student:
     def study(self, name, age):
@@ -83,7 +82,6 @@ print(x)
 #lambda expression 
 x= lambda x:x*x
 print(x(5))
-'''
 
 #lambda function when logic is complicated 
 def calculate(x):
