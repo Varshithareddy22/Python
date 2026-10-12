@@ -79,4 +79,13 @@ student = {
     "name":"Varshitha",
     "age":20
 }
-print(student)
+student['branch']='CSM'
+student['age']=21
+student.pop('branch')
+print(student['name'])
+print(student.keys())
+print(student.values())
+print(student.items())
+print(student.get('name'))
+for key in student:
+    print(key)
