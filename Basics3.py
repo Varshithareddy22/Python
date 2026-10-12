@@ -9,8 +9,13 @@ print(students[1:3])
 num = [18,5,23]
 num.append(17)
 print(num)
-'''
+
 #List with insert 
 num = [18,5,23]
 num.insert(1,17)
+print(num)
+'''
+#List with remove
+num = [18,5,23,17]
+num.remove(17)
 print(num)
