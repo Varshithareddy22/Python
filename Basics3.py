@@ -14,8 +14,13 @@ print(num)
 num = [18,5,23]
 num.insert(1,17)
 print(num)
-'''
+
 #List with remove
 num = [18,5,23,17]
 num.remove(17)
+print(num)
+'''
+#List with pop
+num = [18,17,5,23]
+num.pop(1)
 print(num)
