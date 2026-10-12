@@ -66,9 +66,9 @@ print(A|B)
 A={1,2,3}
 B={3,4,5}
 print(A.intersection(B))
-
+'''
 #set difference
 A={1,2,3}
 B={3,4,5}
 print(A-B)
-'''
+print(B-A)
