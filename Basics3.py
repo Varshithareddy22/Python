@@ -24,7 +24,7 @@ print(num)
 num = [18,17,5,23]
 num.pop(1)
 print(num)
-'''
+
 #List with sort(ascending order)
 num = [18,5,23]
 num.sort()
@@ -35,3 +35,9 @@ num = [18,5,23]
 num.sort()
 num.reverse()
 print(num)
+
+#List with reverse
+num = [18,5,23]
+num.reverse()
+print(num)
+'''
