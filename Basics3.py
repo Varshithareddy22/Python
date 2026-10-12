@@ -41,3 +41,13 @@ num = [18,5,23]
 num.reverse()
 print(num)
 '''
+'''
+#Sets
+#set creation
+num={1,2,1,3,2,3}
+print(num)
+'''
+#set duplicates removing 
+num=[1,2,1,3,2,3]
+unique =set(num)
+print(unique)
