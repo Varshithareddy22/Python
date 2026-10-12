@@ -46,8 +46,13 @@ print(num)
 #set creation
 num={1,2,1,3,2,3}
 print(num)
-'''
+
 #set duplicates removing 
 num=[1,2,1,3,2,3]
 unique =list(set(num))
 print(unique)
+'''
+#set Checking Membership
+num={10,20,30,40}
+print(20 in num)
+print(50 in num)
