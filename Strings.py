@@ -21,3 +21,6 @@ print(name[::-1])
 name = "Varshitha"
 print(name.upper())
 print(name.lower())
+print(name.strip())
+print(name.split())
+print(name.join("-"))
