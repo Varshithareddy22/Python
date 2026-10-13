@@ -28,8 +28,3 @@ print(name.replace("a","A"))
 print(name.find("a"))
 print(name.count("a"))
 '''
-
-name = "Varshitha"
-age = 20
-
-print(f"My name is {name} and I am {age}.")
