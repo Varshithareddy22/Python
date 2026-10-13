@@ -20,3 +20,4 @@ print(name[::-1])
 #strings methods
 name = "Varshitha"
 print(name.upper())
+print(name.lower())
