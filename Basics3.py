@@ -1,4 +1,3 @@
-'''
 #Python Data Structures
 #Lists 1
 students = ["A", "S", "M"]
@@ -40,8 +39,8 @@ print(num)
 num = [18,5,23]
 num.reverse()
 print(num)
-'''
-'''
+
+
 #Sets
 #set creation
 num={1,2,1,3,2,3}
@@ -72,7 +71,7 @@ A={1,2,3}
 B={3,4,5}
 print(A-B)
 print(B-A)
-'''
+
 
 #Dictionary
 student = {
