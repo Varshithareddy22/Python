@@ -16,3 +16,7 @@ print(name[:6])
 print(name[-3:])
 print(name[::-1])
 '''
+
+#strings methods
+name = "Varshitha"
+print(name.upper())
