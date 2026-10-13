@@ -27,4 +27,4 @@ print("-".join(name))
 print(name.replace("a","A"))
 print(name.find("a"))
 print(name.count("a"))
-'''
+''' 
