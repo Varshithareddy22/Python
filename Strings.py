@@ -1,5 +1,6 @@
 '''
-#creat,access,slice the String
+#Strings
+#Create String
 name = "Varshitha..!"
 print(name)
 name= name[:9]+"18"
