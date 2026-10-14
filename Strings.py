@@ -16,7 +16,6 @@ print(name[:6])
 print(name[-3:])
 print(name[::-1])
 
-
 #strings methods
 name = "Varshitha"
 print(name.upper())
@@ -28,3 +27,6 @@ print(name.replace("a","A"))
 print(name.find("a"))
 print(name.count("a"))
 '''
+name="Varshitha"
+print(len(name))
+print(name.startswith("Varshi"))
