@@ -27,6 +27,8 @@ print(name.replace("a","A"))
 print(name.find("a"))
 print(name.count("a"))
 '''
+'''
+#string formatting
 name="Varshitha"
 print(len(name))
 print(name.startswith("Varshi"))
@@ -35,3 +37,4 @@ print(name.endswith("tha"))
 print(name.endswith("py"))
 print("Python" in name)
 print("Varshi" in name)
+'''
