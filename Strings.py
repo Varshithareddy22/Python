@@ -30,3 +30,8 @@ print(name.count("a"))
 name="Varshitha"
 print(len(name))
 print(name.startswith("Varshi"))
+print(name.startswith("py"))
+print(name.endswith("tha"))
+print(name.endswith("py"))
+print("Python" in name)
+print("Varshi" in name)
