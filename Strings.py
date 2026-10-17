@@ -1,4 +1,4 @@
-'''
+''' 
 #Strings
 #Create String
 name = "Varshitha..!"
@@ -6,7 +6,7 @@ print(name)
 name= name[:9]+"18"
 name="v"+name[1:]
 print(name)
-
+ 
 #Accessing and Slicing 
 name = "Varshitha"
 print(name[0])
