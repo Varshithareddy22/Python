@@ -6,3 +6,4 @@ class Car:
 c1=Car()
 print(c1.name)
 print(c1.speed)
+print(c1.color)
